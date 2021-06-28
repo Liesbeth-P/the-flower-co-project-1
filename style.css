@@ -1,7 +1,7 @@
 /*  Colors:
         Green: #666633
-        Navy: #192B37
         Pink: #dd97ab
+        Light pink: #f0d2db
  */
 
 
@@ -18,13 +18,39 @@
 
 /* Padding utility classes ----------*/
 
-.padded     {padding: 5%;}
-.padded-sm  {padding: 1rem;}
-.padded-lg  {padding: 10%;}
-.padded-1 {padding: 1rem;}
+.padded-sm { padding: 2.5%; }
+.padded    { padding: 5%;   }
+.padded-lg { padding: 10%;  }
+
+.padded-05 { padding: 0.5rem; }
+.padded-1  { padding: 1rem; }
+.padded-2  { padding: 2rem; }
+
+.padded-t  { padding-top: 5%; }
+.padded-b  { padding-bottom: 5%; }
+.padded-l  { padding-left: 5%; }
+.padded-r  { padding-bottom: 5%; }
+
+.padded-tb  { padding-top: 5%; padding-bottom: 5%; }
+.padded-lr  { padding-left: 5%; padding-right: 5%; }
+
+.padded-t-1 { padding-top: 1rem; }
+.padded-b-1 { padding-bottom: 1rem; }
+.padded-l-1 { padding-left: 1rem; }
+.padded-r-1 { padding-bottom: 1rem; }
+
+.padded-t-2 { padding-top: 2rem; }
+.padded-b-2 { padding-bottom: 2rem; }
+.padded-l-2 { padding-left: 2rem; }
+.padded-r-2 { padding-bottom: 2rem; }
+
+.padded-t-0 { padding-top: 0; }
+.padded-b-0 { padding-bottom: 0; }
+.padded-l-0 { padding-left: 0; }
+.padded-r-0 { padding-bottom: 0; }
+
 .padded-l-lg {padding-left: 10%;}
 .padded-r-lg {padding-right: 10%;}
-.padding-b-0 {padding-bottom: 0;}
 
 
 /* Margin utility classes ----------*/
@@ -77,7 +103,7 @@
 }
 
 .bg-light {
-    background-color: #E3ECF2;
+    background-color: #f0d2db;
 }
 
 .bg-black {
@@ -89,7 +115,7 @@
 /* Image styles ----------*/
 
 .bg-image {
-    background-image:url('/images/the-sleep-co-bed-2.jpg');
+    background-image:url('/images/the-flower-co-image-11.jpg');
     background-size: cover;
     background-repeat: no repeat;
 }
@@ -176,6 +202,11 @@ nav a {
     border: none;
 }
 
+header nav a {
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
 .logo h2 {
     margin-bottom: 0;
 }
@@ -227,17 +258,23 @@ footer a {
     background-position: center;
 }
 
+.bg-image-9 {
+    background-image: url('/images/the-flower-co-image-9.jpg');
+    background-position: center;
+}
+
+.bg-image-10 {
+    background-image: url('/images/the-flower-co-image-10.jpg');
+    background-position: right;
+}
+
 .bg-image-12 {
     background-image: url('/images/the-flower-co-image-12.jpg');
     background-position: 50% 60%;
 }
-.bg-pillow {
-    background-image: url('/images/the-sleep-co-yellow.jpg');
-    background-position: 50% 57%;
-}
 
 
-/* Font Awesome Icons ----------*/
+/* Font Awesome / Toptal Icons ----------*/
 .flower-icon,
 .fab {
     display: block;
@@ -255,10 +292,12 @@ footer a {
     line-height: 1;
 }
 
+
 /* Card styles ----------*/
 .card {
-    border: 4px solid #FFBE00;
+    border: 4px solid #dd97ab;
 }
+
 
 /* Buttons & Fonts ----------*/
 input,
@@ -274,19 +313,17 @@ textarea {
 
 input:focus,
 textarea:focus {
-    border: 2px solid #FFBE00;
+    border: 2px solid #dd97ab;
     outline: none;
 }
 
 .button {
     padding: 0.5rem 2rem;
-    background-color: #FFBE00;
+    background-color: #dd97ab;
     appearance: none;
-    border: 2px solid #FFBE00;
+    border: 2px solid #dd97ab;
     color: inherit;
 }
-
-
 
 
 /* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
